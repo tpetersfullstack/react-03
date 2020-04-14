@@ -1,0 +1,20 @@
+list.append(1)
+  list.append(2)
+  list.append(3)
+  
+  list.prepend(0)
+  list.prepend(-1)
+  
+  list.search(1) 
+  list.search(3) 
+  list.search(999) 
+  
+  list.deleteHead() // -1
+  list.deleteTail() // 3
+  list.deleteTail() // 2
+  list.deleteHead() // 0
+  
+  list.deleteHead() // 1
+  
+  list.deleteTail() // null
+  
